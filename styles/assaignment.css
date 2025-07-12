@@ -20,7 +20,10 @@
    border-radius: 5px;
    border: none;
 }
-
+.button-primary:hover {
+  cursor: pointer;
+  
+}
 
 
 
@@ -281,6 +284,47 @@ nav{
   margin-top: 20px;
   
 }
+
+/* footer section */
+
+.footer-section {
+  text-align: center;
+  padding: 60px 40px;
+  background-color: aqua;
+  margin-top: 100px;
+}
+
+.footer-logo {
+  font-size: 100px;
+  font-weight: 800;
+  color: #4E47FF;
+  margin-bottom: 16px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  font-weight: 530;
+  color: #8987A1;
+  margin: 0 auto 24px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-links a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #4E47FF;
+}
+
 
 
 
